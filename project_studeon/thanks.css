@@ -1,0 +1,28 @@
+/*thanks内部*/
+#thanks .info{
+    float: left;  width: 353px;  height: 123px;
+    margin-right: 27px;  margin-bottom: 24px;
+    background-color:#ed5844;  position: relative;}
+#thanks .info.right{  margin-right: 7px;}
+#thanks .info.bottom{  margin-bottom: 5px;}
+#thanks .info .img{  padding-top: 40px;  float: left;  width: 50px;  height: 43px;  }
+#thanks .info .word{
+    width: 250px;  height: 107px;  float: right;
+    background-color:#f5f5f5;
+    padding:16px 13px 0 23px;
+}
+#thanks .info .word h3{
+    line-height: 35px;font-size: 16px;color: #000;}
+#thanks .info .word p{
+    line-height: 20px;color: #9f9f9f;font-size: 13px;letter-spacing:-0.3px;}
+#thanks .info .shadow1{
+    width: 353px;  height: 5px;
+    position: absolute;
+    left: 7px;  top:123px;
+    background-color:#e8e8e8;}
+#thanks .info .shadow2{
+    width:7px;  height: 116px;
+    position: absolute;
+    left: 353px;  top:7px;
+    background-color: #e8e8e8;
+}

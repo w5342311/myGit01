@@ -1,0 +1,12 @@
+/*各块内部--bottom*/
+#bottom .img{float: left;
+    width: 96px;  height: 38px;
+    padding-top: 15px;}
+#bottom .img img{  width: 96px;  height: 24px;}
+#bottom .word{
+    float: right;
+    padding-top: 15px;
+    height: 38px;
+    width: 402px;
+    line-height: 30px;font-size: 14px;color: #fdfdfd}
+#bottom span{color: #eb5556;}

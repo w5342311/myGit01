@@ -1,0 +1,34 @@
+/*各块内部--form*/
+#form h3{line-height: 41px;margin-left: 17px;
+    font-size:26px;
+    font-weight:normal;}
+#form .line{
+    height: 64px;  width: 808px;
+    padding-bottom: 14px;
+    margin-left: 23px;}
+#form .line.area{  height: 176px;}
+#form .line p{
+    line-height: 26px;
+    font-size: 16px;
+    color: #4d4d4d;}
+#form .line input{
+    border: none;
+    width: 791px;
+    padding-left: 17px;
+    height: 38px;color: #2c2f00;
+    background-color: #eeeeee;}
+#form .line textarea{
+    border: none;
+    width: 808px;
+    height: 150px;
+    background-color: #eeeeee;
+}
+#form .inner>input{
+    margin-top: 2px;
+    border: none;color: white;
+    width: 145px;  height: 51px;
+    margin-left: 23px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ed5844;
+}

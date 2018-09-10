@@ -1,0 +1,30 @@
+/*各块内部--comment*/
+#comment .inner{padding-left: 15px;width: 825px;  }
+#comment .inner h3{
+    line-height: 41px;padding-top: 9px;
+    padding-bottom: 8px;font-size: 18px;}
+#comment .inner .peoinfo{
+    width: 823px;
+    height: 199px;
+    border: 1px solid #d4d4d4;margin-bottom: 40px;
+}
+#comment .inner .img{
+    width: 158px;  height:182px;
+    padding-left: 15px;float: left;
+    padding-top: 17px;
+    margin-right: 47px;
+}
+#comment .inner img{
+    width: 158px;  height: 158px;
+}
+#comment .inner .info{
+    height: 182px;  padding-top: 17px;
+    width: 603px;float: left;
+}
+#comment .inner .info h3{line-height: 18px;font-size: 13px;}
+#comment .inner .info p{line-height: 23px;color: #b5b5b5;font-size: 13px;}
+#comment .inner .info .date{color: #d4d4d4;padding-top: 18px;}
+#comment .inner .info button{
+    color: white;  background-color: #ec5743;
+    float: right;  margin-right: 97px;  margin-top: 4px;
+    border: none;  width: 99px;  height: 43px;}

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="bottom.css">
+    <link rel="stylesheet" href="thanks.css">
+    <link rel="stylesheet" href="index_title.css">
+    <link rel="stylesheet" href="index_port.css">
+    <style>
+        *{  margin: 0;  padding: 0;font-family: "微软雅黑";}
+        #top{  width: 100%;  height: 84px;border-bottom: 3px solid #dedede  }
+        #footer{
+            height: 275px;
+            width: 100%; background-color: #373737;}
+        #bottom{
+            height: 53px;
+            width: 100%;
+            background-color: #232323;
+            background-image: url(images/bottombg_03.jpg);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+        #top .inner,#footer .inner, #bottom .inner,#banner .inner{
+            width: 1140px;
+            height: 100%;margin-left: auto;margin-right: auto;}
+
+        .main{
+            width: 840px;height: 100%;float: left;}
+        .slide{
+            width: 300px;float:right;height: 100%;
+        }
+        #banner{  width: 100%;  height: 517px;  background-color: #dfdfdf;}
+        #content{ width: 1140px;  height: 2058px;margin-left: auto;margin-right: auto;  }
+        #banner .inner img{  height: 517px;  width: 1140px;display: block;}
+        /*content内部*/
+        #thanks{
+            padding: 70px 0;  margin-bottom: 1px;
+            border-bottom: 1px solid #ddd;
+            height: 276px;  width: 1120px;
+        }
+        #thanks .info{ margin-bottom: 25px;}
+        .title{
+            width: 100%;  height: 132px;
+            padding-top: 56px;
+            padding-bottom: 56px;
+            border-top:1px solid #ddd;
+            border-bottom:1px solid #ddd;
+            margin-bottom: 1px;
+        }
+        .port{
+            width: 100%;  height:526px; padding-top: 49px;
+            border-top:1px solid #ddd;  border-bottom:1px solid #ddd;
+            margin-bottom: 1px;  position: relative;
+        }
+        .bloggy{
+            width: 760px;  height:525px;  float: left;
+            border-top:1px solid #ddd;
+            padding-top: 42px;
+            position: relative;
+        }
+        .testimonials{
+            width: 365px;  height:525px;  float: right;
+            border-top:1px solid #ddd;
+            padding-top: 42px;
+            padding-left: 15px;
+            position: relative;}
+      /*bloggy*/
+        .bloggy .name{
+            width: 128px; height: 20px;
+            line-height: 20px;
+            position: absolute;  top:-10px;  left: 0;
+            font-size: 18px;  font-weight: bold;
+            background-color: #fff;
+           }
+        .bloggy .left{
+            width: 340px;  height: 100%; float: left;
+            margin-right: 40px;
+        }
+        .bloggy .img{
+            width: 340px;  height: 255px; float: left;
+            margin-right: 40px;
+            background-color: wheat;
+            position: relative;
+           }
+        .bloggy .img .tip1{
+            width: 42px;
+            height: 41px;
+            position: absolute;
+            bottom: 0;
+            right: 45px;}
+        .bloggy .img .tip1 img{ width: 42px;  height: 41px;}
+        .bloggy .img .tip2{
+            width: 41px;
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            right: 1px;}
+        .bloggy .img .tip2 img{  width: 41px;  height: 40px;  }
+        .bloggy h3{
+            float: left;
+            width: 327px;
+            padding-top: 7px;
+            font-size:16px;   line-height: 42px;
+            height: 42px;}
+        .bloggy p{
+            float: left;  padding-top: 13px;
+            width: 327px;  height: 100px;
+            line-height: 23px;  font-size: 13px;color: #a4a4a4;
+            border-top:1px solid #cacaca;
+            border-bottom:1px solid #cacaca;}
+        .bloggy .more{
+            float: left; height: 17px;  width: 97px;
+            font-size: 14px;
+            line-height: 17px;
+            margin-top: 35px;  padding-left: 13px;
+            background-image: url(images/more_03.jpg);
+            background-repeat: no-repeat;
+            background-position: right center;}
+
+
+
+        /*testimonials*/
+        .testimonials .name{
+            width: 146px; height: 20px;
+            line-height: 20px;text-align: center;
+            position: absolute;  top:-10px;  left: 0;
+            font-size: 18px;  font-weight: bold;
+            background-color: #fff;}
+        .testimonials>.img{  width: 352px;  height: 110px;}
+        .testimonials>.img img{  height: 109px;  width: 87px;  float: left;}
+        .testimonials .img h3{
+            font-size:16px;   line-height: 23px;  padding-left: 16px;  float: left;}
+        .testimonials .img .writer{
+            line-height: 23px;padding-left: 16px;float: left;
+            padding-top: 2px;font-size: 14px;}
+        .testimonials .img .adr{
+            line-height: 23px;color: #f07c85;padding-left: 16px;float: left;font-size: 14px;}
+        .testimonials>.word{
+            width: 365px;  height: 82px;  line-height: 20px;font-size: 13px;
+            font-style: italic;color: #a4a4a4;letter-spacing: -0.3px;
+            background-image: url(images/quotes.png);
+            background-repeat: no-repeat;
+            background-position: left top;}
+        
+
+    </style>
+</head>
+<body>
+    <div id="top">
+    <div class="inner">
+        <div class="main">
+            <div class="img"> <img src="images/logo.png" alt=""></div>
+            <ul class="nav">
+                <li class="slide" style="color: #db6913;background-image: url(images/bgt_02.jpg);
+                background-repeat: repeat-x;">Home</li>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Features</li>
+                <li >Blog</li>
+                <li class="slide" >Contact</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <div class="icons">
+                <img src="images/top_slide_03.jpg" alt="">
+                <img src="images/top_slide_05.jpg" alt="">
+                <img src="images/top_slide_07.jpg" alt="">
+                <img src="images/top_slide_09.jpg" alt="">
+                <img src="images/top_slide_11.jpg" alt="">
+                <img src="images/top_slide_13.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+    <div id="banner">
+        <div class="inner">
+            <img src="images/banner.jpg" alt="">
+        </div>
+    </div>
+    <div id="content">
+        <div id="thanks">
+            <div class="info">
+                <div class="img"><img src="images/thanksbg1.jpg" alt=""></div>
+                <div class="word">
+                    <h3>EVENTS PLANNING</h3>
+                    <p>Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
+                        Lorem Ipsum has been the industry.</p>
+                </div>
+                <div class="shadow1"></div>
+                <div class="shadow2"></div>
+            </div>
+            <div class="info">
+                <div class="img"><img src="images/thanksbg2.jpg" alt=""></div>
+                <div class="word">
+                    <h3>MASTERING DESIGN</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry.</p>
+                </div>
+                <div class="shadow1"></div>
+                <div class="shadow2"></div>
+            </div>
+            <div class="info right">
+                <div class="img"><img src="images/thanksbg3.jpg" alt=""></div>
+                <div class="word">
+                    <h3>EXPERT DEVELOPERS</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry.</p>
+                </div>
+                <div class="shadow1"></div>
+                <div class="shadow2"></div>
+            </div>
+            <div class="info bottom">
+                <div class="img"><img src="images/thanksbg4.jpg" alt=""></div>
+                <div class="word">
+                    <h3>ATTENSION TO DETAILS</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry.</p>
+                </div>
+                <div class="shadow1"></div>
+                <div class="shadow2"></div>
+            </div>
+            <div class="info bottom">
+                <div class="img"><img src="images/thanksbg5.jpg" alt=""></div>
+                <div class="word">
+                    <h3>ANOTHER COOL SERVICE.</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry.</p>
+                </div>
+                <div class="shadow1"></div>
+                <div class="shadow2"></div>
+            </div>
+            <div class="info right bottom">
+                <div class="img"><img src="images/thanksbg6.jpg" alt=""></div>
+                <div class="word">
+                    <h3>EVENTS PLANNING</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry.</p>
+                </div>
+                <div class="shadow1"></div>
+                <div class="shadow2"></div>
+            </div>
+        </div>
+        <div class="title">
+            <div class="gray">
+                <h3>HI THERE. I AM A THEME, WITH ATTITUDE. I AM ALSO RESPONSIVE, EASY DO EDIT.
+                    WHY DON'T YOU TRY ME ?</h3>
+                <div class="but">BUY NOW !</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis nulla vel dolor
+                    blandit nec Quisque quis nulla vel dolor ultrices sit amet.</p>
+            </div>
+        </div>
+        <div class="port">
+            <div class="name">THE PORTFOLIO</div>
+            <div class="img first">
+                <img src="images/p1.jpg" alt="">
+                <h3>I AM AN AMAZING PROJECT</h3>
+                <p>Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit. Quisque <br>
+                    quis nulla amet. turpis.</p>
+                <div class="word">WEB DESIGN</div>
+                <div class="tu1"><img src="images/tu_01.jpg" alt=""></div>
+                <div class="tu2"><img src="images/tu_02.jpg" alt=""></div>
+            </div>
+            <div class="img second">
+                <img src="images/p2.jpg" alt="">
+                <h3>I AM AN AMAZING PROJECT</h3>
+                <p>Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit. Quisque <br>
+                    quis nulla amet. turpis.</p>
+                <div class="word">WEB DESIGN</div>
+                <div class="tu1"><img src="images/tu_01.jpg" alt=""></div>
+                <div class="tu2"><img src="images/tu_02.jpg" alt=""></div>
+            </div>
+            <div class="img ">
+                <img src="images/p3.jpg" alt="">
+                <h3>I AM AN AMAZING PROJECT</h3>
+                <p>Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit. Quisque <br>
+                    quis nulla amet. turpis.</p>
+                <div class="word">WEB DESIGN</div>
+                <div class="tu1"><img src="images/tu_01.jpg" alt=""></div>
+                <div class="tu2"><img src="images/tu_02.jpg" alt=""></div>
+            </div>
+            <div class="img end">
+                <img src="images/p4.jpg" alt="">
+                <h3>I AM AN AMAZING PROJECT</h3>
+                <p>Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit. Quisque <br>
+                    quis nulla amet. turpis.</p>
+                <div class="word">WEB DESIGN</div>
+                <div class="tu1"><img src="images/tu_01.jpg" alt=""></div>
+                <div class="tu2"><img src="images/tu_02.jpg" alt=""></div>
+            </div>
+
+        </div>
+        <div class="title">
+            <div class="gray">
+                <h3>SUBSCRIBE TO OUR NEWSLETTER. WE HATE SPAM AS MUCH AS YOU DO, SO NO WORRIES.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis nulla vel dolor
+                    blandit nec Quisque quis nulla vel dolor ultrices sit amet.</p>
+                <div class="rbg" ></div>
+            </div>
+        </div>
+       <div class="bloggy">
+           <div class="name">OUR BLOGGY</div>
+           <div class="left">
+           <div class="img">
+               <img src="images/b1.jpg" alt="">
+               <div class="tip1"><img src="images/tip_01.jpg" alt=""></div>
+               <div class="tip2"><img src="images/tip_02.jpg" alt=""></div>
+           </div>
+               <h3>JUST A COOL BLOG POST TITLE HERE.</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                   elit. Quisque quis nulla vel dolor ultrices blandit nec <br>
+                   sit amet. turpis, ipsum dolor sit amet, consectetur <br>
+                   adipiscing elit.</p>
+               <div class="more">Read more  </div>
+           </div>
+           <div class="left">
+           <div class="img ">
+               <img src="images/b2.jpg" alt="">
+               <div class="tip1"><img src="images/tip_03.jpg" alt=""></div>
+               <div class="tip2"><img src="images/tip_02.jpg" alt=""></div>
+           </div>
+               <h3 >JUST A COOL BLOG POST TITLE HERE.</h3>
+               <p >Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                   elit. Quisque quis nulla vel dolor ultrices blandit nec <br>
+                   sit amet. turpis, ipsum dolor sit amet, consectetur <br>
+                   adipiscing elit.</p>
+               <div class="more">Read more </div>
+           </div>
+
+       </div>
+        <div class="testimonials">
+            <div class="name">TESTIMONIALS</div>
+            <div class="img">
+                <img src="images/t1.jpg" alt="">
+                <h3>VERY PLEASED WITH THE <br>
+                    COOL SERVICES PROVIDED.</h3>
+                <div class="writer">Linda Scott / Webdesigner </div>
+                <div class="adr">http://www.mywebsite.com</div>
+            </div>
+            <div class="word">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                Quisque quis nulla vel dolor ultrices blandit nec sit amet. <br> turpis.</div>
+            <div class="img">
+                <img src="images/t2.jpg" alt="">
+                <h3>VERY PLEASED WITH THE <br>
+                    COOL SERVICES PROVIDED.</h3>
+                <div class="writer">Linda Scott / Webdesigner </div>
+                <div class="adr">http://www.mywebsite.com</div>
+            </div>
+            <div class="word">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <p>Quisque quis nulla vel dolor ultrices blandit nec sit amet. <br> turpis.</p>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="inner">
+            <div class="main">
+                <div class="top">
+                    <div id="about">
+                        <h3>ABOUT STUDEON</h3>
+                    </div>
+                    <div id="tags">
+                        <h3>THE TAGS</h3>
+                    </div>
+                    <div id="latest">
+                        <h3>LATEST TWEETS</h3>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id arcu neque, at convallis est felis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id arcu neque, at convallis est felis.</p>
+                    </div>
+                    <div class="cen">
+                        <div>Awesome </div>
+                        <div>Strategy </div>
+                        <div>Photography </div>
+                        <div >Development </div>
+                        <div>Css </div>
+                        <div>photoshop </div>
+                        <div >Html </div>
+                        <div>Awesome </div>
+                        <div>Strategy </div>
+                        <div>Photoshop </div>
+                        <div>Html</div>
+
+                    </div>
+                    <div class="right">
+                        <p class="word">I like this awesome freebie. Check it out<nobr>
+                            @http://t.co/9vslJFpW</nobr> </p>
+                        <p class="fwh">ABOUT 15 MINS</p>
+                        <p class="word">I like this awesome freebie. Check it out<nobr>
+                            @http://t.co/9vslJFpW</nobr> </p>
+                        <p class="fwh">ABOUT 15 MINS</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="slide">
+                <h3>FLICKR FEED</h3>
+                <div class="fs">
+                    <div class="img"><img src="images/fs1.jpg" alt=""></div>
+                    <div class="img cen"><img src="images/fs2.jpg" alt=""></div>
+                    <div class="img"><img src="images/fs3.jpg" alt=""></div>
+                    <div class="img"><img src="images/fs4.jpg" alt=""></div>
+                    <div class="img cen"><img src="images/fs5.jpg" alt=""></div>
+                    <div class="img"><img src="images/fs6.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div class="inner">
+            <div class="img"><img src="images/logo2.png" alt=""></div>
+            <div class="word"><nobr> Copyright ? 2015 All rights Reserved | Template by
+                <span>W3layouts</span></nobr>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

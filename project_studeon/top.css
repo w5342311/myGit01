@@ -1,0 +1,31 @@
+/*各块内部---topmain*/
+#top .inner .main .img{
+    width: 153px;
+    height: 39px;
+    margin:24px 0 21px;float:left;}
+#top .inner .main .nav{
+    width: 550px; height: 84px;float:right;
+}
+#top .inner .main ul{
+    margin: 0;padding: 0;  }
+#top .inner .main li{
+    float:left;padding-left: 20px;
+    width: 75px;
+    height: 84px;
+    display: block;line-height: 87px;}
+#top .inner .main .nav .slide{
+    width: 65px;
+    background-color: #fff;}
+
+/*各块内部--topslide*/
+#top .inner .slide .icons{
+    width: 182px;
+    height: 22px;
+    padding-top: 30px;padding-bottom: 32px;
+    float: right;
+}
+#top .inner .slide .icons img{
+    padding-left: 8px;width: 22px;height: 23px;
+    display: block;float:left;
+}
+

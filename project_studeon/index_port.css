@@ -1,0 +1,36 @@
+/*port内部*/
+.port .name{
+    width: 153px; height: 20px;
+    line-height: 20px;
+    position: absolute;  top:-10px;  left: 0;
+    font-size: 18px;  font-weight: bold;
+    background-color: #fff;}
+.port>.img{
+    height: 456px;  width: 248px;float: left;
+    background-color: #eee;
+    padding:14px 14px 0 14px;
+    position: relative;
+}
+.port>.first{ width: 247px;  margin-right: 12px;}
+.port>.second{  margin-right: 11px;}
+.port>.end{  margin-left: 14px;}
+.port>.img>img{  width: 248px;  height: 310px;}
+.port>.first>img{width: 247px;  height: 310px;}
+
+.port>.img .word{
+    width: 114px;  height: 27px;
+    background-color: #ef5a46;text-align: center;
+    color: #fff;  position: absolute; top:297px;  left: 14px;}
+.port>.first .word{  width: 113px;  }
+.port>.img .tu1{  width: 27px;  height: 27px;
+    position: absolute;top:297px;  right:43px;}
+.port>.img .tu1 img{  width: 27px;  height: 27px;}
+.port>.img .tu2{  width: 27px;  height: 27px;
+    position: absolute;top:297px;right: 13px}
+.port>.img .tu2 img{  width: 27px;  height: 27px;}
+.port>.img h3{
+    font-size:16px;  margin-top: 7px;  line-height: 42px;
+    width: 100%;  border-bottom:1px solid #e8e8e8;}
+.port>.img p{
+    line-height: 23px;  color: #a0a0a0;
+    font-size:13px;letter-spacing: -0.3px;}

@@ -1,0 +1,84 @@
+
+/*各块内部--footer*/
+#footer .inner .main .top{
+    width: 826px;
+    height: 63px;
+    margin-left: 14px;
+}
+#about{
+    width: 285px;
+    height: 63px;
+    float: left;
+    background-image: url(images/bg_footer1.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;}
+#tags{
+    width: 286px;
+    height: 63px;
+    float: left;
+    background-image: url(images/bg_footer2.jpg);
+    background-repeat: no-repeat;
+    background-position:left bottom;}
+#latest{
+    width: 255px;
+    height: 63px;
+    float: left;
+    background-image: url(images/bg_footer3.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;}
+
+#footer .inner .main .top h3{
+    color: #fff;  line-height: 46px;
+    font-size: 17px;font-weight: bold;
+    padding-top: 17px;}
+#footer .inner .main .bottom .left{
+    width: 255px;  height: 210px;  float: left;
+    margin-left: 14px;  margin-right: 30px;
+}
+#footer .inner .main .bottom .left p{
+    line-height: 23px;padding-top: 17px;font-size: 13px;color: #949398;}
+#footer .inner .main .bottom .left .first{
+    padding-top: 19px;}
+#footer .inner .main .bottom .cen{
+    padding-top: 25px;margin-right: 20px;  float: left;
+    height: 185px;  width: 266px;
+}
+#footer .inner .main .bottom .cen div{
+    float: left;  height: 38px;line-height: 38px;
+    margin-right: 3px;  margin-bottom: 3px;
+    background-color: #222;  color: #949398;
+    padding-left: 10px;  padding-right: 10px;font-size: 13px;}
+#footer .inner .main .bottom .right{
+    width: 240px;height: 191px;  float: right;
+    padding-top: 19px;  padding-right: 15px;
+}
+#footer .inner .main .bottom .right .word{
+    line-height: 21px;font-size: 13px;color: #6e6f73;
+    padding-left: 30px;
+    background-image: url(images/footeright_03_02.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#footer .inner .main .bottom .right .word nobr{
+    line-height: 21px;font-size: 13px;  color: #eaeaea;
+}
+#footer .inner .main .bottom .right .fwh{
+    background: none;  margin-top: 2px;  padding-left: 30px;
+    line-height: 31px;  font-weight: bold;  color: #f7f7f7;
+}
+#footer .inner .slide h3{
+    padding-top: 17px;font-size: 17px;font-weight: bold;
+    margin-bottom: 18px; margin-left: 31px;
+    width: 131px;  height: 46px;
+    line-height: 46px;  color: #fff;
+    background-image: url(images/fstb.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;}
+#footer .inner .slide .fs{
+    margin-left: 31px;  margin-right: 16px;
+    width: 253px;  height: 146px;  }
+#footer .inner .slide .fs .img{
+    margin-bottom: 3px;  margin-right: 3px;
+    float: left;  width: 81px;  height: 70px;
+}
+#footer .inner .slide .fs .img.cen{  width: 82px;  }

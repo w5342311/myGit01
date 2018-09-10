@@ -1,0 +1,31 @@
+.title .gray{
+    width: 1105px;  height: 91px;
+    padding-left: 30px;
+    padding-top: 39px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:5px solid #ec5741;
+    background-color: #eee;
+    position: relative;
+}
+.title .gray>h3{
+    float: left;
+    line-height: 27px;
+    font-size:16px;  font-weight:normal;}
+.title .gray>p{
+    clear: left;  float: left;
+    line-height: 37px;color: #b0b0b0;
+    font-size: 13px;letter-spacing:-0.3px;}
+.title .gray .but{
+    height: 57px;  width:103px; float: right;
+    padding-left: 52px;  margin-right: 45px;
+    color: #fff;line-height: 57px;
+    font-size: 16px;font-weight: bold;
+    background-color: #f05946;letter-spacing:-0.3px;
+    background-image: url(images/titlebg_01.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;}
+.title .gray .rbg{
+    width: 185px;  height: 130px;
+    position: absolute;  top: 0;  right: 0;
+    background-image: url(images/titlebg_02.jpg);}

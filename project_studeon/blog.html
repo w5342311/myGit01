@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blog</title>
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="blog_news.css">
+    <link rel="stylesheet" href="blog_comment.css">
+    <link rel="stylesheet" href="blog_form.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="bottom.css">
+    <style>
+        h3,p,ul,li{padding: 0;margin: 0;font-family: "微软雅黑";
+            list-style: none;}
+        /*大块拆分*/
+        #top{
+            width: 100%;  height: 84px;border-bottom: 3px solid #dedede  }
+        #news{
+            height: 830px;
+            width: 1140px;margin-left: auto;margin-right: auto;;
+           }
+        #form{
+            height: 534px;
+            width: 1140px;margin-left: auto;margin-right: auto;;
+            margin-bottom: 22px;
+           }
+        #comment{
+            height: 582px;
+            width:1140px;margin-left: auto;margin-right: auto;;
+           }
+        #footer{
+            height: 275px;
+            width: 100%; background-color: #373737;}
+        #bottom{
+            height: 53px;
+            width: 100%;
+            background-color: #232323;
+            background-image: url(images/bottombg_03.jpg);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+           }
+        #top .inner,#news .inner,#footer .inner, #bottom .inner{
+            width: 1140px;
+            height: 100%;margin-left: auto;margin-right: auto;}
+        #comment .inner,#form .inner{
+            width: 840px;
+            height: 100%;margin-left:0;}
+        .main{
+            width: 840px;height: 100%;float: left;}
+        .slide{
+            width: 300px;float:right;height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div class="inner">
+            <div class="main">
+                <div class="img"> <img src="images/logo.png" alt=""></div>
+                <ul class="nav">
+                        <li class="slide">Home</li>
+                        <li>About</li>
+                        <li>Portfolio</li>
+                        <li>Features</li>
+                        <li style="color: #db6913;background-image: url(images/bgt_02.jpg);
+                background-repeat: repeat-x;">Blog</li>
+                        <li class="slide">Contact</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <div class="icons">
+                    <img src="images/top_slide_03.jpg" alt="">
+                    <img src="images/top_slide_05.jpg" alt="">
+                    <img src="images/top_slide_07.jpg" alt="">
+                    <img src="images/top_slide_09.jpg" alt="">
+                    <img src="images/top_slide_11.jpg" alt="">
+                    <img src="images/top_slide_13.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="news">
+        <div class="main">
+            <div class="brief">
+                <h3>LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING ELIT</h3>
+                <p>Posted 02.05.2015 at 18:00h in Web Author By Jhone Smith / 60 Likes / 2 Comments</p>
+            </div>
+            <div class="img">
+                <img src="images/single.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3>3D Printing, 3D Software, Files to Print | on february 14,2015</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="search">
+                <h3>BLOG SEARCH</h3>
+                <input type="text" placeholder="Enter to search ...">
+            </div>
+            <div class="categorie">
+                <h3>CATEGORIES</h3>
+                <p>Cras ut ultrices</p>
+                <p>Nullam id enim</p>
+                <p>scelerisque enim</p>
+                <p>Ut tincidunt</p>
+                <p>Aliquam mauris nunc,</p>
+                <p>convallis ex urna, ege</p>
+                <p>et commodo</p>
+            </div>
+            <div class="archieves">
+                <h3>ARCHIVES</h3>
+                <p>February 2015</p>
+                <p>January 2015</p>
+                <p>December 2015</p>
+                <p>November 2015</p>
+                <p>February 2015</p>
+                <p>December 2015</p>
+            </div>
+            <div class="posts">
+                <h3>FEATURE POSTS</h3>
+                <div class="img">
+                    <img class="left top" src="images/s1.jpg" alt="">
+                    <img class="top" src="images/s2.jpg" alt="">
+                    <img class="left" src="images/s3.jpg" alt="">
+                    <img src="images/s4.jpg" alt="">
+                    <img class="left" src="images/s5.jpg" alt="">
+                    <img src="images/s6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="form">
+         <form class="inner">
+             <h3>LEAVE A COMMENT</h3>
+             <div class="line">
+                 <p>Name</p>
+                 <input type="text">
+             </div>
+             <div class="line">
+                 <p>Email</p>
+                 <input type="text">
+             </div>
+             <div class="line">
+                 <p>Website</p>
+                 <input type="text" value="http://w3layout.com">
+             </div>
+             <div class="line area">
+                 <p>Comment</p>
+                 <textarea name="" id="" cols="30" rows="10"></textarea>
+             </div>
+             <input type="button" value="SEND" >
+
+        </form>
+    </div>
+    <div id="comment">
+         <div class="inner">
+             <h3>COMMENTS</h3>
+             <div class="peoinfo">
+                 <div class="img">
+                     <img src="images/avatar.jpg" alt="">
+                 </div>
+                 <div class="info">
+                     <h3>TOM BROWN</h3>
+                     <p>Vivamus congue turpis in laoreet sem nec ultrices.reader will be distracted by the
+                         readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it
+                         has a more-or-less normal distribution of letters, as to using 'Content here, content here',
+                         making it look like readable English. Sed semper purus sit amet lorem elementum faucibus.
+                     </p>
+                     <button>REPLY</button>
+                     <p class="date">On April 14, 2014, 18:01</p>
+
+                 </div>
+
+             </div>
+             <div class="peoinfo">
+                 <div class="img">
+                     <img src="images/avatar.jpg" alt="">
+                 </div>
+                 <div class="info">
+                     <h3>MARK JOHNSON</h3>
+                     <p>Vivamus congue turpis in laoreet sem nec ultrices.reader will be distracted
+                         by the readable content of a page when looking at its layout. The point of
+                         using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                         as to using 'Content here, content here', making it look like readable
+                         English. Sed semper purus sit amet lorem elementum faucibus.
+                     </p>
+                     <button>REPLY</button>
+                     <p class="date">On April 14, 2014, 18:01</p>
+
+                 </div>
+
+             </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <div class="inner">
+            <div class="main">
+                <div class="top">
+                    <div id="about">
+                        <h3>ABOUT STUDEON</h3>
+                       </div>
+                    <div id="tags">
+                        <h3>THE TAGS</h3>
+                    </div>
+                    <div id="latest">
+                        <h3>LATEST TWEETS</h3>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id arcu neque, at convallis est felis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id arcu neque, at convallis est felis.</p>
+                    </div>
+                    <div class="cen">
+                        <div>Awesome </div>
+                        <div>Strategy </div>
+                        <div>Photography </div>
+                        <div >Development </div>
+                        <div>Css </div>
+                        <div>photoshop </div>
+                        <div >Html </div>
+                        <div>Awesome </div>
+                        <div>Strategy </div>
+                        <div>Photoshop </div>
+                        <div>Html</div>
+
+                    </div>
+                    <div class="right">
+                        <p class="word">I like this awesome freebie. Check it out<nobr>
+                            @http://t.co/9vslJFpW</nobr> </p>
+                        <p class="fwh">ABOUT 15 MINS</p>
+                        <p class="word">I like this awesome freebie. Check it out<nobr>
+                            @http://t.co/9vslJFpW</nobr> </p>
+                        <p class="fwh">ABOUT 15 MINS</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="slide">
+                <h3>FLICKR FEED</h3>
+                <div class="fs">
+                    <div class="img"><img src="images/fs1.jpg" alt=""></div>
+                    <div class="img cen"><img src="images/fs2.jpg" alt=""></div>
+                    <div class="img"><img src="images/fs3.jpg" alt=""></div>
+                    <div class="img"><img src="images/fs4.jpg" alt=""></div>
+                    <div class="img cen"><img src="images/fs5.jpg" alt=""></div>
+                    <div class="img"><img src="images/fs6.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div class="inner">
+            <div class="img"><img src="images/logo2.png" alt=""></div>
+            <div class="word"><nobr> Copyright ? 2015 All rights Reserved | Template by
+                <span>W3layouts</span></nobr>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
